@@ -7,6 +7,7 @@ public class Main {
         String c=new StringBuilder(sw).reverse().toString();
         Helper one=new Helper(23);
         one.get();
+        one.mul(5,3);
         System.out.println(c);
     }
 }
